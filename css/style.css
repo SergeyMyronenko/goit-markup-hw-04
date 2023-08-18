@@ -451,6 +451,11 @@ section {
   display: inline-flex;
   gap: 16px;
 }
+.footer-svg {
+  width: 24px;
+  height: 24px;
+  fill: #f4f4fd;
+}
 .logo-box {
   margin-right: 120px;
 }
