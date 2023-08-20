@@ -324,10 +324,6 @@ section {
   width: 40px;
   height: 40px;
 }
-.svg-list-link {
-  width: 40px;
-  height: 40px;
-}
 .svg-list-link:hover,
 .svg-list-link:focus {
   background-color: #404bbf;
@@ -339,6 +335,8 @@ section {
   align-items: center;
   border-radius: 50%;
   background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
