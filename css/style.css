@@ -320,23 +320,28 @@ section {
   height: 16px;
   fill: #f4f4fd;
 }
-
 .svg-list {
+  width: 40px;
+  height: 40px;
+}
+.svg-list-link {
+  width: 40px;
+  height: 40px;
+}
+.svg-list-link:hover,
+.svg-list-link:focus {
+  background-color: #404bbf;
+  outline: transparent;
+}
+.svg-list-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.svg-list:hover,
-.svg-list:focus {
-  background-color: #404bbf;
-  outline: transparent;
 }
 /* Portfolio */
 
